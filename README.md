@@ -2,6 +2,10 @@
 
 A simple and responsive web-based temperature converter that allows users to convert between Celsius and Fahrenheit.
 
+## 🚀 Live Demo
+You can try the **Temperature Converter** live here:  
+👉 [Temperature Converter](https://andy-carrillo.github.io/temperature-converter/)
+
 ## 🚀 Features
 - Convert temperatures **from Celsius to Fahrenheit** and **vice versa**.
 - **Input validation** with error messages for invalid values.
