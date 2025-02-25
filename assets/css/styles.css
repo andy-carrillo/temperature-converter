@@ -23,12 +23,34 @@ body {
 /* Input and Select: Ensure Same Width */
 input, select {
     width: 100%;
-    max-width: 220px; /* Same width for input, select, and button */
+    max-width: 220px; /* Ensures same width for input, select, and button */
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box; /* Prevents width issues */
+}
+
+/* Improve select appearance to match other elements */
+select {
+    appearance: none; /* Removes default styles */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Custom dropdown arrow for select */
+select {
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23007BFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    padding-right: 30px;
 }
 
 /* Input Group: Align input and select */
