@@ -29,5 +29,5 @@ A simple and responsive web-based temperature converter that allows users to con
 ![Temperature Converter Mobile](assets/screenshots/mobile-view.png)
 
 ## 👨‍💻 Author & Credits
-Developed by **[Your Name]**  
+Developed by **Andres Carrillo**  
 For educational purposes – *University of the People (UoPeople), Web Programming 1* 📚
